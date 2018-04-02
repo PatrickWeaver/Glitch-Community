@@ -7,7 +7,7 @@ project-avatar-size = 42px
   vertical-align: top
   border-radius: 5px
   padding: 16px
-  
+
   a
     color: primary
     text-decoration: none
@@ -30,7 +30,7 @@ project-avatar-size = 42px
     p
       display: inline-block
       vertical-align: bottom
-    
+
   .category
     padding-bottom: 0
     margin-top: 0
@@ -66,26 +66,26 @@ project-avatar-size = 42px
     overflow: hidden
 
     li
-      
+
       float: left
       display: block
       margin-right: 10px
-      width: 32%
+      width: calc(33% - 20px)
       position: relative
       margin-bottom: 12px
       @media (max-width: mediumViewport)
         width: 100%
-        
-    li:last-child
+
+    li:nth-of-type(3n)
       margin-right: 0px
-      
+
     a
       &:hover
         text-decoration: none
-      
+
     .down-arrow
       margin: 0
-    
+
   .project
     font-size: 0.9rem
     background-color: section-line
@@ -148,7 +148,7 @@ project-avatar-size = 42px
 
     .project-name
       display: inline-block
-    
+
     .description
       margin-top: 12px
       max-width: 92%
@@ -172,7 +172,7 @@ project-avatar-size = 42px
       background-color: private
       border-bottom-color: private
       .overflow-mask
-        background-color: private        
+        background-color: private
       .private-project-badge
         display: inline-block
         background-color: private
@@ -235,10 +235,10 @@ project-avatar-size = 42px
   // in between mediumViewport and largeViewport
   @media (max-width: largeViewport)
     width: 48%
-        
+
   @media (max-width: mediumViewport)
     width: 100%
-    
+
 
 
 .starter-apps
@@ -247,12 +247,12 @@ project-avatar-size = 42px
   img.starter-apps-graphic
     position: absolute
     right: 0px;
-    
+
   .starter-project
     max-width: 370px
   .starter-project:after
    content: none
-  
+
   // Special two-column no-graphics display on larger screens
   @media (min-width: mediumViewport)
     header.category
