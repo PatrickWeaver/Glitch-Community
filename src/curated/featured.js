@@ -14,28 +14,18 @@ Example:
 module.exports =
   [
     {
-      title: 'Get ready!',
-      img: 'https://cdn.glitch.com/85de0811-a09d-482e-8aba-1039316a71ac%2Fv2_1wtcwd-monday.jpg?1521719756785',
-      link: 'https://medium.com/glitch/changing-the-way-we-build-the-web-together-14f8a792a600'
+      title: 'Teach Alexa New Skills',
+      img: 'https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Falexa.png?1491426616444',
+      link: 'https://glitch.com/~alexa-skill'
     }
     , {
-      title: 'Tuesday',
-      img: "https://cdn.glitch.com/85de0811-a09d-482e-8aba-1039316a71ac%2Fbw_1wtcwd-tuesday.jpg?1521719511721",
-      imgTitle: 'You\'ll have to wait until Tuesday'
+      title: 'Create a Slack App',
+      img: "https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Ffeatured-slack-slash-bot.svg?1494429489069",
+      link: 'https://glitch.com/~slack-slash-command'
     }
     , {
-      title: 'Wednesday',
-      img: "https://cdn.glitch.com/85de0811-a09d-482e-8aba-1039316a71ac%2Fbw_1w2cwd-wednesday.jpg?1521719511375",
-      imgTitle: 'Hey, no peeking - this will be announced Wednesday'
-    }
-    , {
-      title: 'Thursday',
-      img: "https://cdn.glitch.com/85de0811-a09d-482e-8aba-1039316a71ac%2Fbw_1wtcwd-thursday.jpg?1521719511206",
-      imgTitle: 'This is going to be good - check back Thursday'
-    }
-    , {
-      title: 'Friday',
-      img: "https://cdn.glitch.com/85de0811-a09d-482e-8aba-1039316a71ac%2Fbw_1wtcwd-friday.jpg?1521719510966",
-      imgTitle: 'We\'ll give you all the deets on Friday'
-    }    
+      title: 'Make WebVR, Reality',
+      img: "https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2FmozillaAframe.png?1494449169684",
+      link: 'https://glitch.com/aframe'
+    }   
   ];

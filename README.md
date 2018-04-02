@@ -17,7 +17,7 @@ File structure
 
 - the backend app starts at `server.js`
 - `src/client.js` is compiled and served as /client-bundle.js
-- view templates start at `src/templates/hello.jade`
+- view templates are powered by the .jade files in `src/templates/`. A conversion from Jadelet to React.js is underway-- new files are .jsx :-)
 - stylus files like `public/styles/style.styl` is compiled and served directly as `public/style.css`
 - Files in `public/` are served directly
 - drag in `assets`, like images or music, to add them to your project

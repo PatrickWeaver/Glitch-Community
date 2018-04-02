@@ -49,7 +49,7 @@ module.exports = function(application, project, category, userPagePresenter) {
     },
 
     projectIsPrivate() {
-      if (project.private()) { return 'private-project'; }
+      return project.private() ? 'private-project' : '';
     },
 
     showProjectOptionsPop(event) {

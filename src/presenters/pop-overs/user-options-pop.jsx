@@ -51,6 +51,13 @@ const UserOptionsPop = ({visible, profileLink, avatarUrl, teams, showNewStuffOve
           <span>New Stuff </span>
           <span className="emoji dog-face"></span>
         </button>
+        
+        <a className="button-link" href="https://support.glitch.com">
+          <div className="button button-small has-emoji button-tertiary">
+            <span>Support </span>
+            <span className="emoji ambulance"></span>
+          </div>
+        </a>        
       </section>
 
       <TeamButtons teams={teams}/>
